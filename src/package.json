@@ -3,22 +3,28 @@
   "version": "1.0.0",
   "description": "This server will allow others to document their APIS as well as generate API keys to allow other developers to use the API.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Muhand/APIServer.git"
-  },
+  "repository": "https://github.com/Muhand/APIServer.git",
+  "author": "Muhand Jumah",
+  "license": "MIT",
+  "private": false,
   "keywords": [
     "API",
     "Server",
     "Documentation"
   ],
-  "author": "Muhand Jumah",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Muhand/APIServer/issues"
   },
-  "homepage": "https://github.com/Muhand/APIServer#readme"
+  "homepage": "https://github.com/Muhand/APIServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "fs": "^0.0.1-security",
+    "hat": "^0.0.3",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.6"
+  }
 }
